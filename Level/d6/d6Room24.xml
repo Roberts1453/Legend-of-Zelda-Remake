@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>24</roomNumber>
+      <roomLocation>7 1</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>16</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor>open</bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom>23</bottomRoom>
+      <leftRoom>20</leftRoom>
+      <rightRoom></rightRoom>
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Stairs</objectName>
+        <location>11 3</location>
+        <exitLocation>4 4</exitLocation>
+        <exitRoom>13</exitRoom>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>3 1</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>8 3</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>LikeLike</objectName>
+        <location>7 2</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>LikeLike</objectName>
+        <location>3 5</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Bubble</objectName>
+        <location>4 5</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Bubble</objectName>
+        <location>6 1</location>
+      </Object>
+	  
+	  
+    </Room>
+  </Asset>
+</XnaContent>
