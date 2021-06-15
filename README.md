@@ -1,6 +1,6 @@
 # Legend-of-Zelda-Remake
 
-This game is a recreation of the original Legend of Zelda for the NES with some additional features.
+This game is a recreation of the original Legend of Zelda for the NES with some additional features. Not all of the dungeons or overworld have been completed.
 
 		
 		Controls: 
