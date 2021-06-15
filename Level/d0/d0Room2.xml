@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>2</roomNumber>
+      <roomLocation>5 7</roomLocation>
+      <roomType>Overworld</roomType>
+      <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom>1</topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom>13</leftRoom>
+      <rightRoom></rightRoom>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>0 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>1 -2</location>
+      </Object>      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>5 -2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>6 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>7 -2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>8 -2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>9 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>10 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>11 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>12 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>13 -2</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>0 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomRightTree</objectName>
+        <location>1 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLeftTree</objectName>
+        <location>5 -1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>6 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>7 -1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>8 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>9 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>10 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>11 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>12 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>13 -1</location>
+      </Object>
+      
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomRightTree</objectName>
+        <location>-1 0</location>
+      </Object>
+        
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 1</location>
+      </Object>
+      
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 2</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 3</location>
+      </Object>
+      
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 4</location>
+      </Object>
+      
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 5</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopRightock</objectName>
+        <location>-1 6</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>0 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>1 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>2 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>5 7</location>
+      </Object>
+        <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>6 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>7 7</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>8 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>9 7</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>10 7</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>11 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>12 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>13 7</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>0 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>1 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>2 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>3 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>4 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>5 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>6 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>7 8</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>8 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>9 8</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>10 8</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>11 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>12 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>13 8</location>
+      </Object>
+      
+        
+      
+      
+        
+        
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>1 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>6 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>6 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>6 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>8 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>8 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>10 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>10 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>10 5</location>
+      </Object>
+      
+    <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>6 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TreeBlock</objectName>
+        <location>6 3</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 -1</location>
+      </Object>
+<Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 0</location>
+      </Object>
+<Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 1</location>
+      </Object>
+<Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 3</location>
+      </Object>
+<Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 8</location>
+      </Object>
+    
+    </Room>
+  </Asset>
+</XnaContent>

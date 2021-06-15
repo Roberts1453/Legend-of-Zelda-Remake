@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>13</roomNumber>
+      <roomLocation>4 2</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>2</roomArchetype>
+      <roomCondition>KillAll OpenTop</roomCondition>
+      <topDoor>closed</topDoor>
+      <bottomDoor>open</bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor>locked</rightDoor>
+      <topRoom>15</topRoom>
+      <bottomRoom>11</bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom>12</rightRoom>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>0 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>1 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>3 0</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>4 1</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>5 3</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>6 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>8 1</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Rope</objectName>
+        <location>11 2</location>
+      </Object>
+        
+    </Room>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>11</roomNumber>
+      <roomLocation>8 7</roomLocation>
+      <roomType>Overworld</roomType>
+      <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom>10</topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom>0</leftRoom>
+      <rightRoom></rightRoom>
+      
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>TreeRow</objectName>
+        <location>-2 -2</location>
+		<rowWidth>2</rowWidth>
+		<rowHeight>11</rowHeight>
+		<excludeX></excludeX>
+		<excludeY>3 4 5 6 7</excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 1</location>
+     </Object>
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 5</location>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>BottomRightTree</objectName>
+        <location>-2 2</location>
+     </Object>
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>BottomRightTree</objectName>
+        <location>-1 1</location>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>TopRightTree</objectName>
+        <location>-2 4</location>
+     </Object>
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>TopRightTree</objectName>
+        <location>-1 5</location>
+     </Object>
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>0 -2</location>
+		<rowWidth>15</rowWidth>
+		<rowHeight>2</rowHeight>
+		<excludeX>6</excludeX>
+		<excludeY></excludeY>
+		<stepX>2</stepX>
+		<stepY>1</stepY>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>0 7</location>
+		<rowWidth>14</rowWidth>
+		<rowHeight>2</rowHeight>
+		<excludeX></excludeX>
+		<excludeY></excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+	 
+      <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>4 1</location>
+		<rowWidth>9</rowWidth>
+		<rowHeight>5</rowHeight>
+		<excludeX>2</excludeX>
+		<excludeY></excludeY>
+		<stepX>2</stepX>
+		<stepY>2</stepY>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>0 2</location>
+		<rowWidth>3</rowWidth>
+		<rowHeight>3</rowHeight>
+		<excludeX></excludeX>
+		<excludeY></excludeY>
+		<stepX>2</stepX>
+		<stepY>2</stepY>
+     </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>1 -2</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>-2 4</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>3 0</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>11 4</location>
+      </Object>
+    </Room>
+  </Asset>
+</XnaContent>

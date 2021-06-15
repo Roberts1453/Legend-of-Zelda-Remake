@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>22</roomNumber>
+      <roomLocation>1 3</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>3</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>open</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom>21</topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom></rightRoom>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Gibdo</objectName>
+        <location>0 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Gibdo</objectName>
+        <location>1 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Gibdo</objectName>
+        <location>3 2</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Gibdo</objectName>
+        <location>3 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Gibdo</objectName>
+        <location>7 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Gibdo</objectName>
+        <location>8 5</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

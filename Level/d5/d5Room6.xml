@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>6</roomNumber>
+      <roomLocation>1 6</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>12</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor>bombable</rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom>5</rightRoom>
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Stairs</objectName>
+        <location>6 3</location>
+        <exitLocation>4 4</exitLocation>
+        <exitRoom>17</exitRoom>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Darknut</objectName>
+        <location>0 5</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Darknut</objectName>
+        <location>1 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>DarknutKey</objectName>
+        <location>2 4</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Darknut</objectName>
+        <location>3 1</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Darknut</objectName>
+        <location>7 0</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

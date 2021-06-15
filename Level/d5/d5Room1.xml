@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>1</roomNumber>
+      <roomLocation>4 7</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>2</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>bombable</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor>open</leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom>3</topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom>0</leftRoom>
+      <rightRoom></rightRoom>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoice</objectName>
+        <location>0 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoice</objectName>
+        <location>1 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoiceKey</objectName>
+        <location>3 2</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoice</objectName>
+        <location>3 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoice</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoice</objectName>
+        <location>5 4</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoice</objectName>
+        <location>8 0</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>PolsVoice</objectName>
+        <location>8 5</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

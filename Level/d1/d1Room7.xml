@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>7</roomNumber>
+      <roomLocation>2 5</roomLocation>
+      <roomType>Open</roomType>
+	  <roomArchetype></roomArchetype>
+      <roomCondition>KillAll OpenRight</roomCondition>
+      <topDoor>locked</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor>open</rightDoor>
+      <topRoom>8</topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom>5</rightRoom>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 4</location>
+      </Object>
+	  
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>0 3</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>1 5</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>3 2</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>3 4</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>8 0</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>8 6</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

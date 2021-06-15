@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>16</roomNumber>
+      <roomLocation>3 1</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>22</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>locked</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor>bombable</rightDoor>
+      <topRoom>17</topRoom>
+      <bottomRoom>15</bottomRoom>
+      <leftRoom>20</leftRoom>
+      <rightRoom>14</rightRoom>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>0 5</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>1 6</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>KeeseKey</objectName>
+        <location>4 2</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>3 3</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>7 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>8 6</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>10 5</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

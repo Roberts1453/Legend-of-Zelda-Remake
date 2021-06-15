@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>16</roomNumber>
+      <roomLocation>2 2</roomLocation>
+      <roomType>Open</roomType>
+	  <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor>locked</rightDoor>
+	  <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom>15</rightRoom>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Stairs</objectName>
+        <location>6 3</location>
+        <exitLocation>1 0</exitLocation>
+        <exitRoom>18</exitRoom>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MoveableBlock</objectName>
+        <location>4 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>7 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>8 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>7 2</location>
+      </Object>
+
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>BladeTrap</objectName>
+        <location>0 0</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>BladeTrap</objectName>
+        <location>11 0</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>BladeTrap</objectName>
+        <location>0 6</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>BladeTrap</objectName>
+        <location>11 6</location>
+      </Object>
+      </Room>
+  </Asset>
+</XnaContent>

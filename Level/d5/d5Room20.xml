@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>20</roomNumber>
+      <roomLocation>2 1</roomLocation>
+      <roomType>OldMan</roomType>
+	  <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor>bombable</bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+	  <topRoom>18</topRoom>
+      <bottomRoom>19</bottomRoom>
+      <leftRoom>23</leftRoom>
+      <rightRoom>16</rightRoom>
+      
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Text</objectName>
+        <location>0 0</location>
+		<text>SECRET POWER IS SAID TO BE IN THE ARROW.</text>
+      </Object>	  
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>0 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>1 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>2 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>3 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>4 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>5 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>6 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>7 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>8 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>9 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>10 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>11 2</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>OldMan</objectName>
+        <location>5 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Fire</objectName>
+        <location>2 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>Fire</objectName>
+        <location>8 2</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>item</objectType>
+        <objectName>ArrowShop</objectName>
+        <location>4 3</location>
+      </Object>
+	  <Object>
+        <objectType>item</objectType>
+        <objectName>ArrowShop</objectName>
+        <location>7 3</location>
+      </Object>
+	  
+      </Room>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>7</roomNumber>
+      <roomLocation>6 5</roomLocation>
+      <roomType>Overworld</roomType>
+      <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom></rightRoom>
+      
+      
+      
+        
+      
+      
+        <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>-2 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>-1 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>0 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>1 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>2 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>3 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomRightLake</objectName>
+        <location>4 2</location>
+      </Object>
+	  
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 -2</location>
+      </Object>
+    <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 1</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>WaterRow</objectName>
+        <location>-2 -2</location>
+		<rowWidth>6</rowWidth>
+		<rowHeight>4</rowHeight>
+     </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>-2 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>-1 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>0 4</location>
+      </Object>
+  
+      
+    <Object>
+        <objectType>block</objectType>
+        <objectName>TreeRow</objectName>
+        <location>-2 5</location>
+		<rowWidth>3</rowWidth>
+		<rowHeight>4</rowHeight>
+		<excludeX></excludeX>
+		<excludeY></excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>7 -2</location>
+		<rowWidth>7</rowWidth>
+		<rowHeight>2</rowHeight>
+		<excludeX></excludeX>
+		<excludeY></excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>1 7</location>
+		<rowWidth>13</rowWidth>
+		<rowHeight>2</rowHeight>
+		<excludeX></excludeX>
+		<excludeY></excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+	 
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>8 2</location>
+		<rowWidth>4</rowWidth>
+		<rowHeight>3</rowHeight>
+		<excludeX>1</excludeX>
+		<excludeY>1</excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>8 3</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>5 4</location>
+      </Object>
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>9 1</location>
+      </Object>
+    </Room>
+  </Asset>
+</XnaContent>

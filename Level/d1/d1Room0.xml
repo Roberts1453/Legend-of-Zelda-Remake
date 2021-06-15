@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>0</roomNumber>
+      <roomLocation>0 0</roomLocation>
+      <roomType>TestRoom</roomType>
+      <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>open</topDoor>
+      <bottomDoor>locked</bottomDoor>
+      <leftDoor>bombable</leftDoor>
+      <rightDoor>closed</rightDoor>
+      <topRoom>1</topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom>13</leftRoom>
+      <rightRoom></rightRoom>      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>3 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>4 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>5 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>6 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>7 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>8 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>3 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>4 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>5 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>6 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>7 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>8 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>5 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Gravel</objectName>
+        <location>6 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MoveableBlock</objectName>
+        <location>4 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>1 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>1 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>1 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>4 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>4 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>4 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>7 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>7 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>7 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>10 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>10 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftStatue</objectName>
+        <location>10 1</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Compass</objectName>
+        <location>9 2</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Map</objectName>
+        <location>9 4</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Key</objectName>
+        <location>6 4</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Heart</objectName>
+        <location>4 4</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>HeartContainer</objectName>
+        <location>2 1</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>HeartContainer</objectName>
+        <location>4 1</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>HeartContainer</objectName>
+        <location>7 1</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>MagicKey</objectName>
+        <location>2 2</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Raft</objectName>
+        <location>2 4</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Ladder</objectName>
+        <location>0 0</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Boomerang</objectName>
+        <location>4 2</location>
+      </Object>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Bomb</objectName>
+        <location>6 4</location>
+      </Object>
+    <Object>
+        <objectType>item</objectType>
+        <objectName>Arrow</objectName>
+        <location>8 4</location>
+      </Object>
+    <Object>
+        <objectType>item</objectType>
+        <objectName>Rod</objectName>
+        <location>8 2</location>
+      </Object>
+    <Object>
+        <objectType>item</objectType>
+        <objectName>Candle</objectName>
+        <location>11 0</location>
+      </Object>
+    </Room>
+  </Asset>
+</XnaContent>

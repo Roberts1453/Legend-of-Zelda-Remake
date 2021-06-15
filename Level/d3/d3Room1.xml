@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>1</roomNumber>
+      <roomLocation>3 6</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>5</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>open</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor>open</rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom>0</bottomRoom>
+      <leftRoom>2</leftRoom>
+      <rightRoom>4</rightRoom>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>2 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>2 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>9 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>9 5</location>
+      </Object>
+      
+      
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>0 1</location>
+    </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>0 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>1 3</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>4 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>4 4</location>
+      </Object>
+	  <Object>
+        <objectType>item</objectType>
+        <objectName>Key</objectName>
+        <location>6 3</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>12</roomNumber>
+      <roomLocation>6 4</roomLocation>
+      <roomType>Overworld</roomType>
+      <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom></rightRoom>
+      
+      
+      
+        
+      
+      
+        <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>6 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>7 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>8 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>9 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>10 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>11 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>12 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>13 2</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>4 2</location>
+      </Object>
+	  
+	  
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 3</location>
+      </Object>
+    <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 6</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 7</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 8</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>WaterRow</objectName>
+        <location>-2 -2</location>
+		<rowWidth>6</rowWidth>
+		<rowHeight>11</rowHeight>
+     </Object>
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>WaterRow</objectName>
+        <location>4 -2</location>
+		<rowWidth>10</rowWidth>
+		<rowHeight>4</rowHeight>
+     </Object>	 
+  
+      
+    <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>7 5</location>
+		<rowWidth>7</rowWidth>
+		<rowHeight>4</rowHeight>
+		<excludeX></excludeX>
+		<excludeY></excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+	 
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>9 4</location>
+      </Object>
+    </Room>
+  </Asset>
+</XnaContent>

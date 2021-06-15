@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>4</roomNumber>
+      <roomLocation>3 6</roomLocation>
+      <roomType>Open</roomType>
+	  <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>open</topDoor>
+      <bottomDoor>locked</bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom>5</topRoom>
+      <bottomRoom>1</bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom></rightRoom>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>5 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Block</objectName>
+        <location>6 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Stalfos</objectName>
+        <location>3 0</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Stalfos</objectName>
+        <location>3 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Stalfos</objectName>
+        <location>4 2</location>
+      </Object>
+    </Room>
+  </Asset>
+</XnaContent>

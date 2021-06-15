@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>8</roomNumber>
+      <roomLocation>3 5</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>0</roomArchetype>
+      <roomCondition>KillAll OpenBottom</roomCondition>
+      <topDoor>locked</topDoor>
+      <bottomDoor>closed</bottomDoor>
+      <leftDoor>closed</leftDoor>
+      <rightDoor>open</rightDoor>
+      <topRoom>9</topRoom>
+      <bottomRoom>4</bottomRoom>
+      <leftRoom>7</leftRoom>
+      <rightRoom>10</rightRoom>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Dodongo</objectName>
+        <location>4 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Dodongo</objectName>
+        <location>6 4</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>DodongoKey</objectName>
+        <location>9 2</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

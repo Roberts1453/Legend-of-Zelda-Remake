@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<XnaContent>
+
+
+  <Asset Type="XMLData.Dungeon[]">
+
+
+    <Room>
+      <roomNumber>2</roomNumber>      
+      <roomLocation>4 7</roomLocation>
+      <roomType>Open</roomType>
+	  <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+
+      <topDoor/>
+      <bottomDoor/>
+      <leftDoor>open</leftDoor>
+      <rightDoor/>
+      <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom>1</leftRoom>
+      <rightRoom></rightRoom>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>2 4</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>3 4</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>2 3</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>2 2</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>3 3</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>3 2</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>8 4</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>8 3</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>8 2</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>9 4</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>9 3</location>
+
+      </Object>
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>9 2</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>block</objectType>
+
+        <objectName>Block</objectName>
+
+        <location>8 2</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>enemy</objectType>
+
+        <objectName>Stalfos</objectName>
+
+        <location>4 0</location>
+
+      </Object>
+
+
+      -<Object>
+
+        <objectType>enemy</objectType>
+
+        <objectName>Stalfos</objectName>
+
+        <location>4 6</location>
+
+      </Object>
+      
+      -<Object>
+
+        <objectType>enemy</objectType>
+
+        <objectName>StalfosRupee</objectName>
+
+        <location>7 2</location>
+
+      </Object>
+      
+      -<Object>
+
+        <objectType>enemy</objectType>
+
+        <objectName>StalfosKey</objectName>
+
+        <location>11 3</location>
+
+      </Object>
+
+    </Room>
+
+  </Asset>
+
+</XnaContent>

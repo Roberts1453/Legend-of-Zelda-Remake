@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>10</roomNumber>
+      <roomLocation>4 5</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>9</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>open</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor>open</leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom>11</topRoom>
+      <bottomRoom>3</bottomRoom>
+      <leftRoom>8</leftRoom>
+      <rightRoom></rightRoom>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>3 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>8 5</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>10 5</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>10 3</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Zol</objectName>
+        <location>6 0</location>
+      </Object>
+	  
+    </Room>
+  </Asset>
+</XnaContent>

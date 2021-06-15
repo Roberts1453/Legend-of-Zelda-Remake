@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>8</roomNumber>
+      <roomLocation>5 4</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>14</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>bombed</topDoor>
+      <bottomDoor>bombed</bottomDoor>
+      <leftDoor>bombable</leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom>4</topRoom>
+      <bottomRoom>0</bottomRoom>
+      <leftRoom>3</leftRoom>
+      <rightRoom>2</rightRoom>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>ShootingStatueLeft</objectName>
+        <location>0 0</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>ShootingStatueLeft</objectName>
+        <location>0 6</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>ShootingStatueRight</objectName>
+        <location>11 0</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>ShootingStatueRight</objectName>
+        <location>11 6</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>BlueGoriyaBoomerang</objectName>
+        <location>11 3</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>BlueGoriya</objectName>
+        <location>10 1</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>BlueGoriya</objectName>
+        <location>6 5</location>
+      </Object>
+    </Room>
+  </Asset>
+</XnaContent>

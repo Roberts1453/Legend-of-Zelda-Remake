@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>2</roomNumber>
+      <roomLocation>1 0</roomLocation>
+      <roomType>ItemRoom</roomType>
+	  <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>ladder</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+	  <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom></rightRoom>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Stairs</objectName>
+        <location>1 -2</location>
+        <exitLocation>4 5</exitLocation>
+        <exitRoom>16</exitRoom>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Ladder</objectName>
+        <location>1 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>HalfLadder</objectName>
+        <location>9 3</location>
+      </Object>   
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>0 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>0 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>0 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>0 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>0 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>0 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>0 5</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>2 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>2 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>2 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>2 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>2 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>2 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>2 5</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>3 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>5 5</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>5 5</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>6 5</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>7 5</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>8 5</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>4 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LongBrick</objectName>
+        <location>5 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>10 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Brick</objectName>
+        <location>11 4</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>8 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>10 5</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>6 2</location>
+      </Object>
+        <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>7 2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>8 2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>9 2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>10 2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>Black</objectName>
+        <location>11 2</location>
+      </Object>
+        
+      <Object>
+        <objectType>item</objectType>
+        <objectName>Flute</objectName>
+        <location>6 3</location>
+      </Object>
+
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>4 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>7 2</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>6 5</location>
+      </Object>
+      <Object>
+        <objectType>enemy</objectType>
+        <objectName>Keese</objectName>
+        <location>3 4</location>
+      </Object>
+      </Room>
+  </Asset>
+</XnaContent>

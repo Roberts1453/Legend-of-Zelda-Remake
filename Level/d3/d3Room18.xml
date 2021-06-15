@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>18</roomNumber>
+      <roomLocation>3 0</roomLocation>
+      <roomType>Open</roomType>
+      <roomArchetype>11</roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor>open</topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor>open</leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom></rightRoom>
+      <Object>
+        <objectType>item</objectType>
+        <objectName>TriforcePiece</objectName>
+        <location>6 3</location>
+      </Object>
+
+      <Object>
+        <objectType>block</objectType>
+        <objectName>DungeonDoor</objectName>
+        <location>5 -2</location>
+        <exitLocation>5 6</exitLocation>
+        <exitRoom>0</exitRoom>
+        <exitDungeon>4</exitDungeon>
+      </Object>
+
+
+    </Room>
+  </Asset>
+</XnaContent>

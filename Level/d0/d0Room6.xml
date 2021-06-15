@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>6</roomNumber>
+      <roomLocation>5 5</roomLocation>
+      <roomType>Overworld</roomType>
+      <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom>5</bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom>7</rightRoom>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-2 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-1 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>0 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>1 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>2 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>3 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>4 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>5 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>6 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>7 -2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>8 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>9 -2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>10 -2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>11 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>12 -2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>13 -2</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-2 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-1 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>0 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>1 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>2 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>3 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>4 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>5 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>6 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>7 -1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>8 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>9 -1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>10 -1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>11 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>12 -1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>13 -1</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-2 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-1 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>0 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>1 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>2 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>3 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>4 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>5 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>6 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>7 0</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>8 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>9 0</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>10 0</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>11 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>12 0</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>13 0</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-2 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>-1 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>0 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>1 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>2 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>3 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>4 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>5 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>6 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>7 1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>8 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>9 1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>10 1</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>11 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>12 1</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>13 1</location>
+      </Object>
+      
+        
+      
+      
+        <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>-2 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>-1 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>0 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>1 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>2 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>3 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>MiddleLake</objectName>
+        <location>4 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>6 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>7 2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>8 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>9 2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>10 2</location>
+      </Object>
+          <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>11 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>12 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>13 2</location>
+      </Object>
+
+      
+
+      <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 3</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 3</location>
+      </Object>
+<Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 4</location>
+      </Object>
+<Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 5</location>
+      </Object>
+    <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 6</location>
+      </Object>
+    <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 7</location>
+      </Object>
+       <Object>
+        <objectType>block</objectType>
+        <objectName>LeftLake</objectName>
+        <location>3 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>RightLake</objectName>
+        <location>4 8</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>-2 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>-1 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>12 4</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>TopTree</objectName>
+        <location>13 4</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2  5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1  5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>12  5</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>13  5</location>
+      </Object>
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2  6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1  6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>12  6</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>13  6</location>
+      </Object>
+  
+      
+    <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>8 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>10 7</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>13 7</location>
+      </Object>
+
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-2 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>-1 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>8 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>10 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>12 8</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomTree</objectName>
+        <location>13 8</location>
+      </Object>
+	  
+	  <Object>
+        <objectType>enemy</objectType>
+        <objectName>Octorok</objectName>
+        <location>8 4</location>
+      </Object>
+    </Room>
+  </Asset>
+</XnaContent>

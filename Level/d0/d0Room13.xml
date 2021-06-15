@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Room>
+      <roomNumber>13</roomNumber>
+      <roomLocation>7 4</roomLocation>
+      <roomType>Overworld</roomType>
+      <roomArchetype></roomArchetype>
+      <roomCondition></roomCondition>
+      <topDoor></topDoor>
+      <bottomDoor></bottomDoor>
+      <leftDoor></leftDoor>
+      <rightDoor></rightDoor>
+      <topRoom></topRoom>
+      <bottomRoom></bottomRoom>
+      <leftRoom></leftRoom>
+      <rightRoom></rightRoom>
+      
+      
+      
+        
+      
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>-2 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>-1 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>0 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>1 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>2 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>3 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>4 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>5 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>6 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>7 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>8 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>9 2</location>
+      </Object>
+      <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>10 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>11 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>12 2</location>
+      </Object>
+	  <Object>
+        <objectType>block</objectType>
+        <objectName>BottomLake</objectName>
+        <location>13 2</location>
+      </Object>
+	  
+	  
+	 <Object>
+        <objectType>block</objectType>
+        <objectName>WaterRow</objectName>
+        <location>-2 -2</location>
+		<rowWidth>16</rowWidth>
+		<rowHeight>4</rowHeight>
+     </Object>	 
+  
+      
+    <Object>
+        <objectType>block</objectType>
+        <objectName>SingleTreeRow</objectName>
+        <location>-2 5</location>
+		<rowWidth>16</rowWidth>
+		<rowHeight>4</rowHeight>
+		<excludeX></excludeX>
+		<excludeY></excludeY>
+		<stepX>1</stepX>
+		<stepY>1</stepY>
+     </Object>
+    </Room>
+  </Asset>
+</XnaContent>
