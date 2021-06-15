@@ -1,0 +1,76 @@
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+/*
+ * Geoffrey Heider
+ * Cody Roberts
+ * */
+namespace Sprint0Project
+{
+    public class Game1 : Game
+    {
+        GraphicsDeviceManager graphics;
+        IController keyboardController;
+        IController mouseController;
+        public ISprite roboSprite;
+        Texture2D spriteSheet;
+        Texture2D textBox;
+        SpriteBatch spriteBatch;
+
+
+        public Game1()
+        {
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+
+        }
+
+        public void Quit()
+        {
+            this.Exit();
+        }
+
+        protected override void Initialize()
+        {
+            keyboardController = new KeyboardController();
+            mouseController = new MouseController();
+
+            base.Initialize();
+        }
+
+        protected override void LoadContent()
+        {
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            spriteSheet = Content.Load<Texture2D>("Robo_Sprite_Sheet");
+            textBox = Content.Load<Texture2D>("Textbox_Corrected");
+
+            roboSprite = new StandingInPlaceRoboSprite();
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+
+            keyboardController.Update(this);
+            mouseController.Update(this);
+
+            roboSprite.Update(gameTime);
+        }
+
+
+    /// <param name="gameTime">Provides a snapshot of timing values.</param>
+    protected override void Draw(GameTime gameTime)
+        {
+            GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            spriteBatch.Begin();
+            spriteBatch.Draw(textBox, new Vector2(50, 300), new Rectangle(30, 40, 690, 260), Color.White);
+            spriteBatch.End();
+
+            roboSprite.Draw(spriteBatch, spriteSheet);
+
+            base.Draw(gameTime);
+        }
+
+    }
+}

@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64E8A151-4581-4BC5-8605-DD96C3E91028}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sprint0Project</RootNamespace>
+    <AssemblyName>Sprint0Project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Collectibles\ArrowCollectible.cs" />
+    <Compile Include="Collectibles\CandleShop.cs" />
+    <Compile Include="Collectibles\ArrowShop.cs" />
+    <Compile Include="Collectibles\BombShop.cs" />
+    <Compile Include="Collectibles\CandleCollectible.cs" />
+    <Compile Include="Collectibles\MagicBoomerangCollectible.cs" />
+    <Compile Include="Collectibles\TriforcePiece.cs" />
+    <Compile Include="Collectibles\RodCollectible.cs" />
+    <Compile Include="Collectibles\LadderCollectible.cs" />
+    <Compile Include="Commands\MenuCommands\SaveCommand.cs" />
+    <Compile Include="Commands\MenuCommands\BackCommand.cs" />
+    <Compile Include="Commands\MenuCommands\SecondarySelectDownCommand.cs" />
+    <Compile Include="Commands\MenuCommands\SelectLeftCommand.cs" />
+    <Compile Include="Commands\MenuCommands\SelectCommand.cs" />
+    <Compile Include="Commands\MenuCommands\SecondarySelectUpCommand.cs" />
+    <Compile Include="Commands\MenuCommands\SelectUpCommand.cs" />
+    <Compile Include="Commands\MenuCommands\SelectDownCommand.cs" />
+    <Compile Include="Commands\MenuCommands\SelectRightCommand.cs" />
+    <Compile Include="Commands\NaviHintCommand.cs" />
+    <Compile Include="Commands\UseEquipedCommand.cs" />
+    <Compile Include="Controller\GamepadController.cs" />
+    <Compile Include="Enemies\Dodongo.cs" />
+    <Compile Include="Enemies\Manhandla.cs" />
+    <Compile Include="Enemies\Navi.cs" />
+    <Compile Include="Enemies\Octorok.cs" />
+    <Compile Include="Enemies\Moblin.cs" />
+    <Compile Include="Enemies\Bubble.cs" />
+    <Compile Include="Enemies\PolsVoice.cs" />
+    <Compile Include="Enemies\Vire.cs" />
+    <Compile Include="Enemies\Zol.cs" />
+    <Compile Include="Enemies\Moldorm.cs" />
+    <Compile Include="Enemies\ShootingStatue.cs" />
+    <Compile Include="Enemies\BlueGoriya.cs" />
+    <Compile Include="Enemies\Darknut.cs" />
+    <Compile Include="Enemies\Gibdo.cs" />
+    <Compile Include="Enemies\Rope.cs" />
+    <Compile Include="Enemies\IActionState.cs" />
+    <Compile Include="Enemies\Wallmaster.cs" />
+    <Compile Include="Interfaces\ICrossableBlock.cs" />
+    <Compile Include="Items\Ladder.cs" />
+    <Compile Include="Items\Candle.cs" />
+    <Compile Include="Items\RodWave.cs" />
+    <Compile Include="Items\SwordCurse.cs" />
+    <Compile Include="SaveFile.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BlueWizrobeLeftSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BlueWizrobeRightSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BlueWizrobeUpSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\LanmolaBodySprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\LanmolaHeadSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\WizrobeUpSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\WizrobeRightSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\WizrobeLeftSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\DarknutUpSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\DarknutRightSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\DarknutDownSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\DarknutLeftSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\PolsVoiceSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\VireUpSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\VireDownSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\LikeLikeSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\MagicBoomerangInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\LadderInventorySprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\CandleSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\RodUpSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\RodWaveUpSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\RodWaveRightSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\RodWaveDownSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\RodWaveLeftSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\FireSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\MagicBoomerangSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\TriforcePieceSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\SilverArrowDownSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\SilverArrowLeftSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\SilverArrowRightSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\SilverArrowUpSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\LadderSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\MenuSprites\NameSelectSprite.cs" />
+    <Compile Include="SpriteFactory\MenuSprites\FileScreenSprite.cs" />
+    <Compile Include="SpriteFactory\MenuSprites\TitleSprite.cs" />
+    <Compile Include="DeathMenu.cs" />
+    <Compile Include="StartMenu.cs" />
+    <Compile Include="Interfaces\IMenu.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\InventorySelectSprite.cs" />
+    <Compile Include="SpriteFactory\LinkSprites\NaviExclamationSprite.cs" />
+    <Compile Include="SpriteFactory\LinkSprites\NaviRightSprite.cs" />
+    <Compile Include="SpriteFactory\MenuSpriteFactory.cs" />
+    <Compile Include="SpriteFactory\LinkSprites\NaviLeftSprite.cs" />
+    <Compile Include="SpriteFactory\MenuSprites\TextTriangleSprite.cs" />
+    <Compile Include="SpriteFactory\MenuSprites\TextboxSprite.cs" />
+    <Compile Include="SpriteFactory\MenuSprites\TextSprite.cs" />
+    <Compile Include="StaticBlocks\BlackSquareBlock.cs" />
+    <Compile Include="SaveManager.cs" />
+    <Compile Include="StaticBlocks\FireBlock.cs" />
+    <Compile Include="StaticBlocks\TextBlock.cs" />
+    <Compile Include="StaticBlocks\OldManBlock.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="Textbox.cs" />
+    <Compile Include="IGameState.cs" />
+    <Compile Include="Items\RockPellet.cs" />
+    <Compile Include="Collectibles\RaftCollectible.cs" />
+    <Compile Include="Collectibles\BoomerangCollectible.cs" />
+    <Compile Include="Collectibles\Bow.cs" />
+    <Compile Include="Collectibles\BombCollectible.cs" />
+    <Compile Include="Collectibles\HeartContainer.cs" />
+    <Compile Include="Collectibles\MagicKey.cs" />
+    <Compile Include="Collisions\CollisionUtility.cs" />
+    <Compile Include="Collisions\CollisionDetectionColectibles.cs" />
+    <Compile Include="Commands\RewindCommand.cs" />
+    <Compile Include="Commands\PreviousDungeonCommand.cs" />
+    <Compile Include="Commands\NextDungeonCommand.cs" />
+    <Compile Include="Enemies\BladeTrap.cs" />
+    <Compile Include="EnemyDeathHandler.cs" />
+    <Compile Include="RoomConditionChecker.cs" />
+    <Compile Include="Commands\InventoryOpenCloseCommand.cs" />
+    <Compile Include="Items\Fireball.cs" />
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="Health.cs" />
+    <Compile Include="GameUI.cs" />
+    <Compile Include="Collectibles\Heart.cs" />
+    <Compile Include="Collectibles\Compass.cs" />
+    <Compile Include="Collectibles\Clock.cs" />
+    <Compile Include="Collectibles\Rupee.cs" />
+    <Compile Include="Collectibles\Map.cs" />
+    <Compile Include="Collisions\CollisionDetectionBlocks.cs" />
+    <Compile Include="Collisions\CollisionDetectionEnemys.cs" />
+    <Compile Include="Block.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="Commands\PreviousRoomCommand.cs" />
+    <Compile Include="Commands\NextRoomCommand.cs" />
+    <Compile Include="DungeonLoader.cs" />
+    <Compile Include="Interfaces\IStaticBlock.cs" />
+    <Compile Include="Randomizer.cs" />
+    <Compile Include="Enemies\Gel.cs" />
+    <Compile Include="Enemies\Aquamentus.cs" />
+    <Compile Include="Collectibles\Key.cs" />
+    <Compile Include="Level\LevelData.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BackgroundSecretSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BlueGoriyaDownSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BlueGoriyaLeftSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BlueGoriyaRightSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BlueGoriyaUpSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\MoldormSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\BubbleSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\GibdoSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\OctorokDownSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\OctorokLeftSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\OctorokRightSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\OctorokUpSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\RedKeeseSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\ZolSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\RopeRightSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\RopeLeftSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\WallMasterSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\FloorTrapSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\RockPelletSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\SingleTreeBrownBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSpriteFactory.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BottomDoorBombedTop.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BottomDoorOpenTopSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BrickSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LadderBlockSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftDoorBombedTop.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftDoorOpenTopSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftWallSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightDoorBombedTop.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightDoorOpenTopSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightWallSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BottomWallSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BlackBlockSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\TopDoorBombedTop.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\TopDoorOpenTopSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\TopWallSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\UndergroundSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSpriteFactory.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BackgroundSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\StoneBlockSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BlueLeftStatueSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BlueRightStatueSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BottomDoorBombed.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BottomDoorClosedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BottomDoorLockedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\BottomDoorOpenSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSpriteFactory.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\GravelSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftDoorBombed.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftDoorClosedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftDoorLockedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftDoorOpenSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\LeftStatueSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\MovableBlockSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightDoorBombed.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightDoorClosedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightDoorLockedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightDoorOpenSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\RightStatueSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\StairsSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\TopDoorBombed.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\TopDoorClosedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\TopDoorLockedSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\TopDoorOpenSprite.cs" />
+    <Compile Include="SpriteFactory\DungeonSprites\WaterSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\AquamentusSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\CandleInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\RodInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\RaftInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\MagicKeyInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\BlankLevelMapSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\ArrowInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\BombInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\LinkMapLocationSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\HUDSprites\MinimapBlockSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\HeartEmptySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\CompassHUDSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\BoomerangInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\SwordInventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\MapHUDSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\MapScreenSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\InventorySprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\NumbersSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\HeartHalfSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\MapBlockTopAndBottomSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\MapBlockBottomSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\HeartFullSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\MapBlockTopSprite.cs" />
+    <Compile Include="SpriteFactory\HUDSprites\HUDSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\HeartContainerSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\MagicKeySprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\RodDownSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\RaftSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\BlueRupeeSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\BowSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\OldManSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\SmokeSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\FireballSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\ClockSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\CompassSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\HeartSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\KeySprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\MapSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\OrangeRupeeSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\GelSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\StalfosSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Enemies\Stalfos.cs" />
+    <Compile Include="Enemies\Keese.cs" />
+    <Compile Include="Interfaces\ICollectibleItem.cs" />
+    <Compile Include="SpriteFactory\EnemySprites\KeeseSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\WhiteSwordUpSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\WhiteSwordRightSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\WhiteSwordLeftSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\WhiteSwordDownSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\SwordDownSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\SwordLeftSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\SwordRightSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\SwordUpSprite.cs" />
+    <Compile Include="Items\Sword.cs" />
+    <Compile Include="Items\Boomerang.cs" />
+    <Compile Include="Items\Arrow.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeBrownBottomLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeBrownBottomRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeBrownTopBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeBrownTopLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeBrownTopRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeGreenBottomLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeGreenBottomRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeGreenTopBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeGreenTopLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\DungeonTreeGreenTopRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\LandBackgroundSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\RockBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\RockBottomBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\RockBottomLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\RockBottomRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\RockTopBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\RockTopLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\RockTopRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\SingleRockBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\SingleTreeBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterMiddleBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterBottomBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterBottomLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterBottomRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterTopBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterTopLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\WaterTopRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\TreeTopRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\TreeBottomLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\TreeBottomBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\TreeBottomRightBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\TreeBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\TreeTopBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\TreeTopLeftBlockSprite.cs" />
+    <Compile Include="SpriteFactory\OverworldSprites\LandBlockSprite.cs" />
+    <Compile Include="StaticBlocks\DoorTop.cs" />
+    <Compile Include="StaticBlocks\DungeonDoor.cs" />
+    <Compile Include="StaticBlocks\GravelBlock.cs" />
+    <Compile Include="StaticBlocks\LeftStatue2Block.cs" />
+    <Compile Include="StaticBlocks\LeftStatueBlock.cs" />
+    <Compile Include="StaticBlocks\MoveableBlock.cs" />
+    <Compile Include="StaticBlocks\OverworldBlocks\DungeonTreeBlock.cs" />
+    <Compile Include="StaticBlocks\OverworldBlocks\LandBlock.cs" />
+    <Compile Include="StaticBlocks\OverworldBlocks\RockBlock.cs" />
+    <Compile Include="StaticBlocks\OverworldBlocks\LakeBlock.cs" />
+    <Compile Include="StaticBlocks\OverworldBlocks\SingleTree.cs" />
+    <Compile Include="StaticBlocks\OverworldBlocks\TreeBlock.cs" />
+    <Compile Include="StaticBlocks\RightStatue2Block.cs" />
+    <Compile Include="StaticBlocks\RightStatueBlock.cs" />
+    <Compile Include="StaticBlocks\StairsBlock.cs" />
+    <Compile Include="StaticBlocks\LadderBlock.cs" />
+    <Compile Include="StaticBlocks\BrickBlock.cs" />
+    <Compile Include="StaticBlocks\BlackBlock.cs" />
+    <Compile Include="StaticBlocks\StoneBlock.cs" />
+    <Compile Include="StaticBlocks\Door.cs" />
+    <Compile Include="StaticBlocks\Room.cs" />
+    <Compile Include="StaticBlocks\WaterBlock.cs" />
+    <Content Include="CodeReviews\Sprint2\CodyQualityReview.txt" />
+    <Content Include="CodeReviews\Sprint2\HeiderQuality.txt" />
+    <Content Include="CodeReviews\Sprint2\HeiderReadibility.txt" />
+    <Content Include="CodeReviews\Sprint2\JoshCodeReadabilityReview.txt" />
+    <Compile Include="Commands\ResetCommand.cs" />
+    <Compile Include="Commands\UseBoomerangCommand.cs" />
+    <Compile Include="Commands\UseBombCommand.cs" />
+    <Compile Include="Commands\UseArrowCommand.cs" />
+    <Compile Include="Commands\AttackCommand.cs" />
+    <Compile Include="Commands\CameraLeftCommand.cs" />
+    <Compile Include="Commands\DamageLinkCommand.cs" />
+    <Compile Include="Commands\CameraDownCommand.cs" />
+    <Compile Include="Commands\CameraRightCommand.cs" />
+    <Compile Include="Commands\CameraUpCommand.cs" />
+    <Compile Include="Commands\WalkingDownCommand.cs" />
+    <Compile Include="Commands\WalkingUpCommand.cs" />
+    <Compile Include="Commands\WalkingRightCommand.cs" />
+    <Compile Include="Items\Bomb.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\ICharacter.cs" />
+    <Compile Include="Enemies\Goriya.cs" />
+    <Compile Include="Link.cs" />
+    <Compile Include="Commands\WalkingLeftCommand.cs" />
+    <Compile Include="Commands\FallingCommand.cs" />
+    <Compile Include="Commands\WalkingInPlaceCommand.cs" />
+    <Compile Include="Commands\StandingInPlaceCommand.cs" />
+    <Compile Include="Commands\QuitGameCommand.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="SpriteClasses\WalkingInPlaceSprite.cs" />
+    <Compile Include="SpriteClasses\WalkingRightSprite.cs" />
+    <Compile Include="SpriteClasses\WalkingUpSprite.cs" />
+    <Compile Include="SpriteClasses\WalkingDownSprite.cs" />
+    <Compile Include="SpriteClasses\WalkingLeftSprite.cs" />
+    <Compile Include="SpriteClasses\StandingInPlaceSprite.cs" />
+    <Compile Include="Controller\KeyboardController.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Interfaces\IController.cs" />
+    <Compile Include="Interfaces\ISprite.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\ArrowDownSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\ArrowLeftSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\ArrowRightSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\ArrowUpSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSprites\BombSprite.cs" />
+    <Compile Include="SpriteFactory\ItemSprites\BoomerangSprite.cs" />
+    <Compile Include="SpriteFactory\EnemySpriteFactory.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\EnemySprites\GoriyaMovingDownSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\EnemySprites\GoriyaMovingLeftSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\EnemySprites\GoriyaMovingRightSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\EnemySprites\GoriyaMovingUpSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\ItemSpriteFactory.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkAttackingDownSprite.cs" />
+    <Compile Include="SpriteFactory\LinkSprites\LinkAttackingLeftSprite.cs" />
+    <Compile Include="SpriteFactory\LinkSprites\LinkAttackingRightSprite.cs" />
+    <Compile Include="SpriteFactory\LinkSprites\LinkAttackingUpSprite.cs" />
+    <Compile Include="SpriteFactory\LinkSprites\LinkIdleDownSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkIdleLeftSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkIdleRightSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkIdleUpSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkItemDownSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkItemLeftSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkItemRightSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkItemUpSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkMovingDownSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkMovingLeftSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkMovingRightSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSprites\LinkMovingUpSprite.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SpriteFactory\LinkSpriteFactory.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Content Include="CodeReviews\Sprint4\CodyMaintainability.txt" />
+    <Content Include="CodeReviews\Sprint3\HeiderReadability.txt" />
+    <Content Include="CodeReviews\Sprint3\HeiderQuality.txt" />
+    <Content Include="CodeReviews\Sprint3\CodyReadability.txt" />
+    <Content Include="CodeReviews\Sprint3\JoshReadability.txt" />
+    <Content Include="CodeReviews\Sprint3\KeeseQualityReview.txt" />
+    <Content Include="CodeReviews\Sprint3\StalfosReadabilityReview.txt" />
+    <Content Include="CodeReviews\Sprint4\GeoffreyMaintainability.txt" />
+    <Content Include="CodeReviews\Sprint4\GeoffreyReadability.txt" />
+    <Content Include="CodeReviews\Sprint4\RedslobMaintainability.txt" />
+    <Content Include="CodeReviews\Sprint5\CodyReadability.txt" />
+    <Content Include="Level\d0\d0Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room10.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room11.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room12.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room16.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d0\d0Room9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room10.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room11.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room12.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room16.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room17.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room10.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room11.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room12.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room16.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room17.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room18.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d3\d3Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room10.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room11.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room12.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room16.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room17.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room18.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room19.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room20.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d4\d4Room9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room10.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room11.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room12.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room16.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room17.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room18.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room19.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room20.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room21.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room22.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room23.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d5\d5Room9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room25.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room24.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room18.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d6\d6Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d7\d7Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room10.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room11.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room12.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room16.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room17.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room18.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room19.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room20.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room21.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d8\d8Room9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d9\d9Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\Dungeon1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d2\d2Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room10.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room11.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room12.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room13.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room15.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room16.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room17.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room18.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room8.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room9.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room6.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room7.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\dungeonData.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Level\d1\d1Room0.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room1.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room4.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room5.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Level\d1\d1Room14.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeReviews\Sprint2\LinkClassReadabilityReview.txt" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
