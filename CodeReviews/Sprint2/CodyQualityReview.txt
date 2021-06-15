@@ -1,0 +1,12 @@
+Author: Cody Roberts
+Date: 09/27/2019
+Sprint: 2
+Name of File: KeyboardController.cs
+Author of File: Joshua Jacobs
+Time: 15 Minutes
+
+The dictionary of keys to commands makes it simple to add new controls for the keyboard. Keys are easily associated with a single command and multiple keys can point to the same command with this method.  
+However, the controller is not completely functional as needed in the update method.  It iterates through each possible key in the dictionary and checks if it is pressed, but only executes the associated command if the key is not the previous key pressed.  This prevents the same key from being used twice in a row, so Link cannot move the same direction twice or use an item twice without another command being executed first.
+Some movements are able to take priority over others, while others have no effect when certain movement keys are already pressed
+I would suggest iterating through keys pressed and executing them instead, and allowing the command to be executed with each press, with the most recent command taking priorty.
+ 

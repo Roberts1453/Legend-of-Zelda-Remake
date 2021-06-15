@@ -1,0 +1,15 @@
+﻿Author: Geoffrey Heider
+Date: 11/11/2019
+Sprint: 4
+Name of File: Door.cs
+Author of File: Cody Roberts
+
+Maintainability:
+
+Good idea to have only one door class and an enum of the different door types.
+Setting the door sprites makes sense. It may be a good idea to do the same with the block types.
+I created a lot of class files for the different block types and it would be easier to maintain all of them
+through an enum. Door.cs seems more maintainable than the other static block classes.
+
+
+ 

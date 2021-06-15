@@ -1,0 +1,20 @@
+﻿Author: Cody Roberts
+Date: 10/18/2019
+Sprint: 3
+Name of File: DungeonSpriteFactory.cs
+Author of File: Connor Redslob
+Time: 10 min
+
+Readability:
+
+Clean and straight-forward. Easy to understand for the most part. Each sprite is clearly labeled.
+Though I am not sure what the purpose of this part is:
+"
+private DungeonSpriteFactory()
+        {
+        }
+"
+It is probably left over from an earlier version and should be removed.
+
+
+ 

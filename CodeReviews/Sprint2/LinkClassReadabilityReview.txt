@@ -1,0 +1,11 @@
+Author: Connor Redslob
+Date: 09/27/19
+Sprint 2
+Readability Review of: Link.cs
+Author of Link.cs: Cody Roberts
+Minutes Taken to Complete Review: 20
+Comments: 
+		The states are named clear enough so that the purpose of each state can be properly enterpreted. The variables that keep track of
+	the states in the LinkStateMachine, such as the boolean variables LinkAttacking and LinkMoving are also named so that thier purpose
+	is clear. White space is used to seperate groups of code, such as the different state methods in the LinkStateMachineso that individual
+	parts of the code are more visible.  

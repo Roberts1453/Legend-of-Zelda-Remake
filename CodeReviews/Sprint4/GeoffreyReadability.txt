@@ -1,0 +1,14 @@
+﻿Author: Geoffrey Heider
+Date: 11/11/2019
+Sprint: 4
+Name of File: SoundManager.cs
+Author of File: Connor Redslob
+
+Readability:
+
+The variables of the sound effects are easy to understand. The process of adding them
+to a dictionary and loading, playing, pausing, and looping are very simple to follow along to.
+The file does not seem overwhelmingly long and has methods that make sense to adding songs to the game.
+
+
+ 

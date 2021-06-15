@@ -1,0 +1,17 @@
+﻿Author: Joshua Jacobs
+Date: 10/18/2019
+Sprint: 3
+Name of File: Sword.cs
+Author of File:
+Time: 15m
+
+Readability:
+
+From the top, the active boolean is too vague, it should be replaced with isAttacking to avoid confusion. The following functions are very well written and leave no confusion 
+about the meaning of any variables or what each part does. In have no issues with the Sword State Machine variables though the function BeMoving could possibly be named better.
+The update function seems to be easy to read, however, the numbers for sword.location.x, etc. are pretty arbitrary and could be improved. Everything else looks great, very well written
+with little complaints from me.
+
+
+
+ 

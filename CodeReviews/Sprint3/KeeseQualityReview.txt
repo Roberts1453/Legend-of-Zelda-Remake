@@ -1,0 +1,15 @@
+Author: Connor Redslob
+Date: 10/18/2019
+Sprint: 3
+Name of File: Keese.cs
+Author of Keese.cs: Cody Roberts
+Comments:
+	Most methods in the class, such as TakeDamage, BeMoving, ChangeDirection, etc. appear to have low coupling since each method has no or few
+	dependencies. Also, since most of the methods are short and carry out similar activities, it can be classified as having higher cohesion in some
+	parts of the code too. However, some parts of the code, such as MoveUpdate, appear to have higher cohesion and may be harder to implement since
+	it relies on more variables to determine movement. 
+
+	A hypothetical change is the addtion of collision detection and whether or not the keese is touching a wall. The method that determines movement, 
+	MoveUpdate, would have to be modified to change movement depending on if the keese is colliding with a wall. This is could be a harder change to
+	implement since MoveUpdate is viewed as having higher coupling that other methods. 
+

@@ -1,0 +1,11 @@
+﻿Author: Connor Redslob
+Date: 12/02/19
+Sprint 5
+Readability Review of: RoomConditionChecker.cs
+Author of Stalfos.cs: Cody Roberts
+Minutes Taken to Complete Review: 15 minutes
+Comments: 
+		The different methods delcared in the class all have clear names so that their purpose can be understood, such as RoomCondition and MatchPairedDoors. The variables that 
+		are used by the methods also have clear names so that their purpose can be understood. While there are multiple nested conditional statements, they are clearly 
+		positioned together and indented so that it is clear what condition multiple statements are part of.  Finally, sufficent white space is between statements and
+		methods so that different methods or parts of the class can be identified more easily. 

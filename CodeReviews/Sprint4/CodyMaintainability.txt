@@ -1,0 +1,17 @@
+﻿Author: Cody Roberts
+Date: 11/11/2019
+Sprint: 4
+Name of File: SoundManager.cs
+Author of File: Connor Redslob
+Time: 15 min
+
+Maintainability:
+
+Easy to understand add new sounds of multiple types. 
+Simply add them to the dictionary of other sounds following the example of the rest of the sounds.
+Methods make it easy for other classes to play a sound by simply calling the method with the name string as a parameter.
+
+I was easily able to add new sounds and play the sounds from the item classes using this class.
+
+
+ 

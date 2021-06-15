@@ -1,0 +1,18 @@
+﻿Author: Joshua Jacobs
+Date: 09/27/2019
+Sprint: 2
+Name of File: Link.cs
+Author of File: Cody Roberts
+Time: 15 Minutes
+
+Readability:
+
+The first part of the code is very straight forward and clear, with each state having it's own function and that function calling the sprite classes. I would say, however,
+that while you state in the functions with using weapons which weapon is being used, it could be made clearer by also having the useItem function have names instead of
+numbers. Directions should definitely be ENUMed since it's confusing even with the comment which direction is which. Using Boolean instead of bool, which is pointless,
+though an easy fix and I'm only leaving it since I'm writing this code review. Since it's Boolean, I might be inclined to think that there is something more to it, affecting
+readability. Everything before the Update function looks really good. The update function is a little confusing, with magic numbers being used for a time limit and the 
+attackTime += gameTime.ElapsedGameTime.Milliseconds is non-intuitive. Again, more magic numbers with the linkDamaged timer. The rest seems good!
+
+Other Comments:
+The class is pretty long and only going to get longer, as far as I know most of that is unavoidable, but it would be ideal to cut it down as much as possible.

@@ -1,0 +1,13 @@
+﻿Author: Connor Redslob
+Date: 11/11/2019
+Sprint: 4
+Name of File: GravelBlock.cs
+Author of GravelBlock.cs: Geoffrey Heider
+Comments:
+	Most methods in the class, such as GetCollide, GetLocation, etc. appear to have low coupling since each method has no or few
+	dependencies. Also, since most of the methods are short and carry out similar activities, it can be classified as having higher cohesion in some
+	parts of the code too. 
+
+	A hypothetical change to the game is which sprite is used for the GravelBlock when Draw is called. This change can be supported easily since the
+	sprite the Draw method uses has not be coupled with the class and is instead determined by a seperate class, so no changes have to be made to the 
+	GravelBlock class itself. 

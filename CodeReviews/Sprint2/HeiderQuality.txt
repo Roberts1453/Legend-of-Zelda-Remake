@@ -1,0 +1,10 @@
+﻿Author: Geoffrey Heider
+Date: 09/27/19
+Sprint: 02
+File: LinkIdleUpSprite.cs
+Author of file: Connor Redslob
+Comments: The quality of the code is very good. The naming of the variables makes sense and this file is
+not ridiculously long. The Update() and Draw() functions make sense in this class
+Suggestion: I do not think it is necessary to have idle sprite classes for each direction. I think there
+should be one idle sprite for the down direction. I dont think that would take away from the game.
+I think when Link or Goriya is not moving it is reasonable for them to just be idle in the down direction.

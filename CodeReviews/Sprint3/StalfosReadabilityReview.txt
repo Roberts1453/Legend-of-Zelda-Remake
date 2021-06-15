@@ -1,0 +1,11 @@
+Author: Connor Redslob
+Date: 10/18/19
+Sprint 3
+Readability Review of: Stalfos.cs
+Author of Stalfos.cs: Cody Roberts
+Minutes Taken to Complete Review: 15 minutes
+Comments: 
+		The variables declared at the start of the class have names that show what the puprpose of each variable is. The methods declared in the 
+		class, such as BeAttacking, MoveDown, TakeDamage, etc. are also named so that thier purpose can be interpreted from thier name. White
+		space is used to seperate a majority of the groups of code. However, some parts, like the group of BeIdle, MoveDown, MoveLeft, etc. Are closely
+		grouped together and could be spaced out a bit more to be more readable. 

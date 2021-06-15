@@ -1,0 +1,9 @@
+﻿Author: Geoffrey Heider
+Date: 09/27/19
+Sprint: 02
+File: GoriyaMovingDownSprite.cs
+Author of file: Connor Redslob
+No. of minutes: 5
+Comments: The Draw() function is very readable. The Update() funtion
+I think could use some comments to explain the use of the milliseconds
+variables.
