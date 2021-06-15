@@ -1,7 +1,9 @@
 # Legend-of-Zelda-Remake
 
-This game is a recreation of the original Legend of Zelda.
-Controls: 
+This game is a recreation of the original Legend of Zelda for the NES.
+
+		
+		Controls: 
 	Menu:
 		Up - Move Up
 		Left - Move Left
@@ -29,7 +31,6 @@ Controls:
 		E - Open/Close HUD
 		R - Rewind
 		Space - Navi Hint
-
 		1 - Use Bomb
 		2 - Use Arrow
 		3 - Use Boomerang
