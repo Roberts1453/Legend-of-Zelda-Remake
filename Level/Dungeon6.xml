@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type ="XMLData.Dungeon[]">
+    <Dungeon>
+      <dungeonNumber>6</dungeonNumber>
+      <roomCount>1</roomCount>
+      <color></color>
+    </Dungeon>
+  </Asset>
+</XnaContent>
